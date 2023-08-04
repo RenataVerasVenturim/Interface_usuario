@@ -18,7 +18,7 @@
             <img src="icone.jpg" height="100" width="100">         
         <br>
         <br>
-        <form action="http://localhost:5500/empenhos/" method="get">
+        <form action="" method="get">
             <!--<label for="primeirocampo">Nota fiscal:</label>
             <br>
             <br>
@@ -34,13 +34,17 @@
             <br>
             <br>
             <br>
-                <input type="submit" value="CONSULTAR" id="BOTAO">            
+                <input type="submit" value="CONSULTAR" id="BOTAO" onclick="alerta()">            
             
             <p id="versao"><i>By Renata Veras Venturim</i></p>
         </form>
             
     </div>
    
-    <script src="/index.js"></script>
+    <script>
+        function alerta(){
+            window.prompt("Baixe os arquivos do projeto da 'Google Sheets como base de dados com Node.js' para testar usabilidade");
+        }
+    </script>
 </body>
 </html>
