@@ -8,7 +8,17 @@
     
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>        
+<body>
+    <header>
+        <nav>
+            <img src="logo.png" alt="logo uff">
+            <ul>
+                <li><a href="#contact" class="btn">Contatos</a>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>       
        
     <div id="buscador"> 
        
@@ -18,7 +28,7 @@
             <img src="icone.jpg" height="100" width="100">         
         <br>
         <br>
-        <form action="" method="get">
+        <form action="http://localhost:5500/empenhos/" method="get">
             <!--<label for="primeirocampo">Nota fiscal:</label>
             <br>
             <br>
@@ -34,17 +44,19 @@
             <br>
             <br>
             <br>
-                <input type="submit" value="CONSULTAR" id="BOTAO" onclick="alerta()">            
+                <input type="submit" value="CONSULTAR" id="BOTAO">            
             
             <p id="versao"><i>By Renata Veras Venturim</i></p>
         </form>
             
     </div>
-   
-    <script>
-        function alerta(){
-            window.alert("Baixe os arquivos do projeto da 'Google Sheets como base de dados com Node.js' para testar usabilidade");
-        }
-    </script>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Universidade Federal Fluminense. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="/index.js"></script>
+
 </body>
 </html>
