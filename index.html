@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=7">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de busca</title>
     
     <link rel="stylesheet" href="styles.css">
@@ -27,10 +28,10 @@
         <p id="titulo"><b>CONSULTAR SITUAÇÃO DE EMPENHO </b> 
         </p>
         <br>
-            <img src="icone.jpg" height="100" width="100">         
+            <img src="icone.jpg" alt="buscador de empenho">         
         <br>
         <br>
-        <form action="" method="get">
+        <form action="http://localhost:5500/empenhos/" method="get">
             <!--<label for="primeirocampo">Nota fiscal:</label>
             <br>
             <br>
@@ -46,7 +47,7 @@
             <br>
             <br>
             <br>
-                <input type="submit" value="CONSULTAR" id="BOTAO" onclick=alerta()>            
+                <input type="submit" value="CONSULTAR" class="btn">            
             
             <p id="versao"><i>By Renata Veras Venturim</i></p>
         </form>
@@ -64,11 +65,7 @@
 
     </footer>
 
-    <script>
-        function alerta(){
-        window.alert('Faça download do projeto de Google Sheets as a Database, para verificar funcionamento')
-        }
-    </script>
+    <script src="/index.js"></script>
 
 </body>
 </html>
