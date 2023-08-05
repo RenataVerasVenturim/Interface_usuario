@@ -34,7 +34,9 @@
        
        <div id="tutorial">
          <ul>
-            <li>BAIXAR TUTORIAL - Versão 2023 - <a href="tutorial.pdf" download="tutorial2023" type="application/pdf">CLIQUE AQUI</a></li>
+            <li>TUTORIAL - Versão 2023 - <a href="tutorial.pdf" download="tutorial2023" type="application/pdf"><button id="btn-baixar" onclick="download()">
+                ⇩ BAIXAR
+            </button></a></li>
          </ul>
        </div>
     </main>
@@ -62,6 +64,10 @@
         lista_suspensa.style.display = "none";
     }
         });
+    function download(){
+    var btnbaixar=document.getElementById("btn-baixar");
+    btnbaixar.style.background="gray";
+    }
     </script>
     
 
