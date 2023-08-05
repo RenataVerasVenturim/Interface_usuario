@@ -208,8 +208,10 @@ color:black;
     border-radius: 5px;
     padding: 10px 30px;
     cursor:pointer;
+    box-shadow: 1px 1px 1px rgb(2, 0, 0);
+    border:1px solid black;
     }
 #btn-baixar:hover {
-    box-shadow: 1px 1px 1px rgb(2, 0, 0);
+    box-shadow: 2px 2px 2px rgb(2, 0, 0);
     background-color: #e5b05a;
 }
