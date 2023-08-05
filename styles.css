@@ -1,7 +1,7 @@
 /* Document css */
 
 body{
-background-color: aquamarine;
+background-color: #4187d1;
 background-attachment: fixed;
 background-repeat: no-repeat;
 }
@@ -144,6 +144,13 @@ padding:11px;
     padding: 13px 25px;
 }
 
+.btn:active{
+    background-image: linear-gradient(30deg, #59615a, #667273);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right:24px;
+    padding-left:24px;
+    }
 
 /* Estilos do footer */
 footer {
