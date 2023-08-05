@@ -14,7 +14,7 @@ header nav{
     display:flex;
     align-items: center;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px rgb(148, 142, 142);   
+    box-shadow: 2px 2px 2px #000;   
     position: relative;
 }
 
@@ -146,7 +146,7 @@ footer {
 
 #buscador{
 border-radius: 5px;
-box-shadow: 2px 2px 2px rgb(148, 142, 142);   
+box-shadow: 2px 2px 2px #000;   
 display: block;
 background-color:#FFF;
 text-align: center;
