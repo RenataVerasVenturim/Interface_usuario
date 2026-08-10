@@ -2,5 +2,6 @@
 <p align="center"><a href="https://renataverasventurim.github.io/Interface_usuario/"><i>Acessar interface do usuário</i></a></p>
 
  <p align="center">
- <img src="https://github.com/RenataVerasVenturim/Interface_usuario/assets/129551549/42bda8d5-a459-429b-8b0c-7cb975c493df">
+<img width="531" height="551" alt="image" src="https://github.com/user-attachments/assets/988161df-fe85-449a-a2c6-60256371eb57" />
+
  </p>
